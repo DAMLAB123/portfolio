@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="stylesportfolio.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Mes créations</h1>
+            <div class="sort-buttons">
+                <button onclick="sortGallery('type')">Trier par type</button>
+                <button onclick="sortGallery('date')">Trier par date</button>
+            </div>
+            <div class="gallery-grid">
+                <figure class="gallery-item" data-name= "MORE." data-date="2025-04-11" data-type="video">
+                    <a href="creations/more.html">
+                        <img src="statics/more/cover.png" >
+                        <div class="overlay">
+                            <h2>MORE.</h2>
+                        </div>
+                    </a>
+                </figure>
+                <figure class="gallery-item" data-name= "EchoOfColors" data-date="2025-01-10" data-type="game">
+                    <a href="creations/echoofcolors.html">
+                        <img src="statics/echoofcolors/cover.jpg" >
+                        <div class="overlay">
+                            <h2>Echo of Colors</h2>
+                        </div>
+                    </a>
+                </figure>
+<!--                 <figure class="gallery-item" data-name= "Film" data-date="2024-11-30" data-type="video">
+                    <a href="creations/film.html">
+                        <img src="statics/filmtumo/cover.png">
+                        <div class="overlay">
+                            <h2>Film</h2>
+                        </div>
+                    </a>
+                </figure> -->
+                <figure class="gallery-item" data-name= "DragueOrDie" data-date="2024-10-22" data-type="game">
+                    <a href="creations/dragueordie.html">
+                        <img src="statics/dragueordie/cover.jpg" >
+                        <div class="overlay">
+                            <h2>Drague or die</h2>
+                        </div>
+                    </a>
+                </figure>
+                <figure class="gallery-item" data-name= "Arcane" data-date="2024-07-26" data-type="design">
+                    <a href="creations/arcane.html">
+                        <img src="statics/arcane/Mockup/inside4.jpg" >
+                        <div class="overlay">
+                            <h2>Arcane</h2>
+                        </div>
+                    </a>
+                </figure>
+                <figure class="gallery-item" data-name= "SausageRide" data-date="2024-07-09" data-type="design">
+                    <a href="creations/sausageride.html">
+                        <img src="statics/sausageride/visitcard.jpg">
+                        <div class="overlay">
+                            <h2>Sausage Ride</h2>
+                        </div>
+                    </a>
+                </figure>
+                <figure class="gallery-item" data-name= "FlowerBoy" data-date="2024-06-01" data-type="design">
+                    <a href="creations/flowerboy.html">
+                        <img src="statics/flowerboy/recto.jpg" >
+                        <div class="overlay">
+                            <h2>Flower Boy</h2>
+                        </div>
+                    </a>
+                </figure>
+                <figure class="gallery-item" data-name= "JO2024" data-date="2024-03-09" data-type="design">
+                    <a href="creations/olympic.html">
+                        <img src="statics/olympic/cover.jpg" >
+                        <div class="overlay">
+                            <h2>J.O. 2024</h2>
+                        </div>
+                    </a>
+                </figure>
+            </div>      
+        </section>
+    </main>
+
+    <footer id="footer">
+        <p>damien.laballery@gmail.com</p>
+        <p>Damien Laballery Portfolio</p>
+    </footer>
+
+    <script src="sortscript.js"></script>
+</body>
+</html>
