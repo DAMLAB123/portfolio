@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Boy</title>
+    <link rel="stylesheet" href="stylescreations.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <ul>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="../portfolio.html">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Flower Boy</h1>
+            <div class="content">
+                <div class="text">
+                    <p class="body">
+                        Pour un exercice de création graphique à Tumo en juin 2024, j'ai recréé la pochette recto-verso 
+                        d'un vinyle de l'artiste de mon choix. À partir d'images trouvées en ligne, j'ai composé une identité visuelle 
+                        cohérente, en jouant avec les couleurs, les proportions et la typographie. Cet exercice m'a permis de travailler l'harmonie
+                        visuelle et le sens du détail dans une esthétique musicale forte.
+                    </p>
+                </div>
+
+                <div class="slideshow-container">
+                    <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+                    <div class="slides"><img src="../statics/flowerboy/recto.jpg"></div>
+                    <div class="slides"><img src="../statics/flowerboy/verso.jpg"></div>
+                    <button class="next" onclick="changeSlide(1)">&#10095;</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>damien.laballery@gmail.com</p>
+        <p>Damien Laballery Portfolio</p>
+    </footer>
+
+    <script src="slidescript.js"></script>
+</body>
+</html>
